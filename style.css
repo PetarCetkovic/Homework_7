@@ -1,0 +1,56 @@
+.selectTimer >*{
+    display: inline-block;
+    width: 33%;
+}
+ .selectTimer button {
+    padding: 20px 40%;
+ }
+
+ .clock{
+     position: relative;
+     text-align: center;
+     
+ }
+
+ .actionButtons >*{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+ }
+ .actionButtons{
+     margin-left: 30%;
+     padding-top: 5%;
+ }
+
+ 
+.btn {
+    border: 2px solid lightgray;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.6;
+    color: white;
+}
+.btn0{
+    background-color: steelblue;
+}
+
+
+ .start{
+     background-color: green;
+     color: white;
+ }
+ .stop{
+    background-color: red;
+    color: white;
+ }
