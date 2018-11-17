@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Pomodoro Timer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/gif/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
@@ -15,14 +16,15 @@
             <div><button class="shortBreak btn0">Short Break</button></div>
             <div><button class="longBreak btn0">Long Break</button></div>
         </div>
+        <span id="selectChecker"></span>
         <div class="clock">
             <h1 id="clockCounter">00:00</h1>
-            <audio id="timerSound" src="alarm-clock-01.mp3" preload="auto" muted autoplay></audio>
+            <audio id="timerSound" src="alarm.mp3" preload="auto" muted></audio>
         </div>
         <div class="actionButtons">
-            <div><button class="start btn">Start</button></div>
-            <div><button class="stop btn">Stop</button></div>
-            <div><button class="reset btn">Reset</button></div>
+            <div><button class="start btn" id="startBtn">Start</button></div>
+            <div><button class="stop btn" id="stopBtn">Stop</button></div>
+            <div><button class="reset btn" id="resetBtn">Reset</button></div>
         </div>
     </div>
     <script src="main.js"></script>

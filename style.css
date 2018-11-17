@@ -14,14 +14,20 @@
 
  .actionButtons >*{
     display: inline-block;
-    width: 15%;
+    width:15%;
+    height: 100px;
     text-align: center;
     align-content: center;
     justify-content: center;
  }
  .actionButtons{
-     margin-left: 30%;
+     margin-left: 35%;
      padding-top: 5%;
+     display: none;
+ }
+ #selectChecker{
+     display: none;
+     visibility: hidden;
  }
 
  
@@ -43,8 +49,8 @@
 }
 .btn0{
     background-color: steelblue;
+    height: 100px;
 }
-
 
  .start{
      background-color: green;
@@ -54,3 +60,40 @@
     background-color: red;
     color: white;
  }
+ 
+ #clockCounter{
+    font-size: 6em;
+ }
+
+ @media screen and (max-width:1100px){
+     .selectTimer button{
+         padding: 20px 30%;
+     }
+     .actionButtons >*{
+        padding-right: 20px;
+     }
+    
+}
+@media screen and (max-width:810px){
+    .selectTimer button{
+        padding: 10px;
+        width: 32%;
+    }
+    .selectTimer >*{
+        display: inline;
+    }
+    .actionButtons >*{
+        display: block;
+        width:100%;
+        height: 70px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+     }
+     .actionButtons{
+        margin-left: 0;
+        padding-top: 5%;
+        display: none;
+    }
+}
+
