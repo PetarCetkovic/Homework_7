@@ -52,7 +52,7 @@ function setPomodoro(){
 }
 
 function setShortBreak(){
-    document.getElementById("clockCounter").innerText="0:05";
+    document.getElementById("clockCounter").innerText="5:00";
     clearAllIntervals();
     document.getElementById("selectChecker").innerText="s";
 
